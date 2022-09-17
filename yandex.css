@@ -1,0 +1,130 @@
+
+@font-face {
+    font-family: "Intro";
+    font-style: normal;
+    font-weight: 400;
+    src: 
+        url("/Intro/4488-font.otf") format("otf");
+    }
+
+body {
+    font-family: 'Intro', sans-serif;
+    box-sizing: border-box;
+}
+
+.cart {
+    height: 38px;
+width: 115px;
+left: 0px;
+top: 0px;
+border-radius: 100px;
+background-color: #5222D0;
+text-align: center;
+color: white;
+padding: 3%;
+box-sizing: border-box;
+text-transform: uppercase;
+font-weight: 800;
+grid-row: 1/2;
+grid-column: 3/4;
+justify-self: end;
+margin-right: 15%;
+align-self: center;
+}
+
+.header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    margin-top: 4%;
+}
+
+.logo {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-self: end;
+}
+
+.logo__img {
+    grid-row: 1/2;
+    grid-column: 1/2;
+}
+
+.logo__company-name {
+    grid-row: 1/2;
+    grid-column: 2/3;
+    margin-left: 5%;
+}
+
+.main {
+    margin-left: 7%;
+    margin-top: 10%;
+    margin-right: 5%;
+}
+
+.main__title {
+    margin-left: 2%;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.content__feature {
+    margin: 5%;
+    margin-bottom: 15%;
+}
+
+.content__feature_title {
+text-transform: uppercase;
+font-weight: 800;
+padding-top: 5%;
+padding-bottom: 4%;
+font-size: 2vw;
+}
+
+.content__feature_img-container {
+    width: 100%;
+}
+
+.content__feature_img {
+    max-width: 100%;
+}
+
+.content__feature_text {
+    font-family: 'Roboto Slab';
+    font-weight: 300;
+}
+
+.subscribe {
+    background: #EC615B;
+    height: 35%;
+    padding-top: 10%;
+    padding-left: 5%;
+}
+
+.content__feature_title-subscribe {
+color: white;
+text-transform: uppercase;
+font-weight: 900;
+margin-bottom: 3%;
+font-size: 2vw;
+}
+
+.subscribe__button {
+    background-color: #5222D0;
+    border-radius: 100px;
+    font-size: 1.4vw;
+    color: white;
+    padding: 4%;
+    border: 0;
+    margin-top: 6%;
+    text-transform: uppercase;
+    font-weight: 600;
+}
